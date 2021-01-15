@@ -10,6 +10,9 @@
 	    margin-left: 30px;
 	}
 
+
+
+
 	/* HERO
 	================================================== */
 	.hero {
@@ -293,7 +296,7 @@
 	}
 
 	.navbar-toggle .icon-bar {
-		height: 1px;
+		
 		width: 30px;
 	    background-color:#c7c7c7;
 	    -webkit-transition: all 0.3s;
@@ -551,7 +554,7 @@
 	}
     .site-header{width:100%;}
 	.site-section{
-		padding-top: 10px;
+		padding-top: 48px;
 	}
 
 	.hero .img1{
@@ -560,6 +563,9 @@
 		width:50px;
 	height:60px;}
 
+	h{
+	   font-size:24px;
+	}
 
 	p2{font-size:18px;}
 	.icons{
@@ -686,4 +692,44 @@
 	.site-footer .col-xs-offset-3 {
 		margin-left: 0;
 	}
+
+	.flex-container {
+    display: flex;
+    margin-bottom:84px;
+	  flex-direction:column;
+      }
+
+    .flex-child {
+    flex:1;
+
+    }  
+
+.flex-child:first-child {
+    margin-right: 0px;
+    margin-left:0px;
+} 
+
+.project-logo{
+	display:contents;
+}
+
+
+.text-center{
+	margin-top:50px;
+	margin-bottom:20px;
+}
+
+.copybtn{
+	display:none;
+	
+}
+.btnhide{
+	display:none;
+}
+.Mail a{
+	cursor:pointer;
+	pointer-events:auto;
+
+}
+
 }
