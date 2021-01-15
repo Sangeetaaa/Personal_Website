@@ -11,6 +11,19 @@
 	}
 
 
+	.hamburger{
+    background-color:transparent;
+    border:0;
+    display:none;
+    color:white;
+    cursor:pointer;
+    font-size:20px;
+    float:right;
+}
+
+.hamburger:focus{
+    outline:none;
+}
 
 
 	/* HERO
@@ -731,5 +744,20 @@
 	pointer-events:auto;
 
 }
+.hamburger{
+    background-color:transparent;
+    border:0;
+    color:white;
+	display:block;
+    cursor:pointer;
+    font-size:20px;
+    float:right;
+}
 
+.hamburger:focus{
+    outline:none;
+}
+.nav .navbar-nav .navbar-right.show{
+	display:flex;
+}
 }

@@ -38,7 +38,12 @@
     <link href="assets/css/responsive.css" rel="stylesheet">
 
     <script type="text/javascript">  
+    const hamburger=document.getElementById('hamburger');
+    const navul=document.getElementById('navul');
 
+    hamburger.addEventListener('click',() =>{
+     navul.classList.toggle('show');
+    });
     function copyToClipboard(element) {
     var $temp = $("<input>");
     $("body").append($temp);
@@ -60,16 +65,12 @@
 </head>
 <body>
 
-    <header id="masthead" class="site-header"  data-top="background: transparent; padding: 30px 0; " data-top-bottom="background:transparent; padding: 40px 0;" >
-          <nav id="primary-navigation" class="site-navigation">
+   <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);" data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
+           <nav id="primary-navigation" class="site-navigation">
             <div class="container">
                 <div class="navbar-header page-scroll">
 
-                    <button type="button" class="navbar-toggle collapsed" data-target="#portfolio-perfect-collapse" aria-expanded="false" >
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+                  
                     
                     
                    <a href="index.html" style="color:transparent"> <h5>AJAY KUDAL</h5></a>
@@ -78,7 +79,7 @@
                
                 <div class="main-menu" id="portfolio-perfect-collapse">
 
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right" id="navul">
 
                         <li class="page-scroll"><a href="#portfolio">Work</a></li>
                       
