@@ -71,7 +71,7 @@ a {
 .hamburger:focus{
     outline:none;
 }
- .Mail a{
+ .disable{
 		  cursor:default;
           text-decoration:none;
           pointer-events:none;
