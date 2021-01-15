@@ -60,23 +60,6 @@ a {
 
 }  
 
-.hamburger{
-    background-color:transparent;
-    border:0;
-    color:white;
-    cursor:pointer;
-    font-size:20px;
-}
-
-.hamburger:focus{
-    outline:none;
-}
- .Mail a{
-		  cursor:default;
-          text-decoration:none;
-          pointer-events:none;
- }
-
 .flex-child:first-child {
     margin-right: 20px;
     margin-left:24px;
@@ -206,107 +189,13 @@ textarea {
     resize: none;
 }
 
-
-
-
-
-
-
-.hvrbox,
-.hvrbox * {
-	box-sizing: border-box;
-}
-.hvrbox {
-	position: relative;
-	display: inline-block;
-	overflow: hidden;
-	max-width: 100%;
-	height: auto;
-}
-.hvrbox img {
-	max-width: 100%;
-}
-.hvrbox .hvrbox-layer_bottom {
-	display: block;
-}
-.hvrbox .hvrbox-layer_top {
-	opacity: 0;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.6);
-	color: #fff;
-	padding: 15px;
-	-moz-transition: all 0.4s ease-in-out 0s;
-	-webkit-transition: all 0.4s ease-in-out 0s;
-	-ms-transition: all 0.4s ease-in-out 0s;
-	transition: all 0.4s ease-in-out 0s;
-}
-.hvrbox:hover .hvrbox-layer_top,
-.hvrbox.active .hvrbox-layer_top {
-	opacity: 1;
-}
-.hvrbox .hvrbox-text {
-	text-align: center;
-	font-size: 18px;
-	display: inline-block;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-moz-transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-}
-.hvrbox .hvrbox-text_mobile {
-	font-size: 15px;
-	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
-	border-top: 1px solid rgba(179, 179, 179, 0.7);
-	margin-top: 5px;
-	padding-top: 2px;
-	display: none;
-}
-.hvrbox.active .hvrbox-text_mobile {
-	display: block;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .project-img{
     float:right;
 }
 
+.project-img:hover{
+    opacity:0.8;
+}
 
 
 
@@ -449,13 +338,19 @@ p {
 }
 .hero .col-md-6:last-child {
     right:0;
-    top:21%;
+    top:15%;
     position: absolute;
 }
 h7{
    font-size:48px;
    font-weight: 500;
 }
+.thanos{
+  width:35px;
+  height:35px;
+  vertical-align:initial;
+}
+
 .hero h1 {
    font-weight: 600;
    font-size: 64px;
@@ -488,10 +383,7 @@ h7{
     line-height: 150%;
 } 
 
-.hero img {
-    
-    height:500px;
-}
+
 
 /* SITEMAIN
 ================================================== */
